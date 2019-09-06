@@ -15,3 +15,13 @@ def pop_with_args(array)
   second = array.pop
   return_array = [second, first]
 end
+
+def using_shift(array)
+  array.shift 
+end 
+
+def shift_with_args(array)
+  first = array.shift 
+  second = array.shift 
+  return_array = [first, second]
+end 
