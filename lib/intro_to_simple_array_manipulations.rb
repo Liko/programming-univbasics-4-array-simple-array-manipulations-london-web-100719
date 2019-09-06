@@ -13,5 +13,5 @@ end
 def pop_with_args(array)
   first = array.pop
   second = array.pop
-  return_array = [first, second]
+  return_array = [second, first]
 end
